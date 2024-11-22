@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intrafut</title>
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <div class="top-header">
+      <header class="navbar">
+        <div class="container">
+          <a href="#" class="logo"
+            ><img src="images/header-logo.png" alt=""
+          /></a>
+          <nav class="nav">
+            <a class="small" href="#hero">Home</a>
+            <a class="small desktop" href="#about-us">About Us</a>
+            <a class="small" href="#players">Players</a>
+            <a class="small" href="#coaches">Coaches</a>
+            <a class="small" href="#fans">Fans</a>
+            <a class="small desktop our-users" href="#other-users">
+              Other Users
+              <div class="menu">
+                <div class="menu-item">Referees</div>
+                <div class="menu-item">Fitness Coaches</div>
+                <div class="menu-item">Sports Doctors</div>
+                <div class="menu-item">Football Academies</div>
+                <div class="menu-item">Football Sponsors</div>
+                <div class="menu-item">Sports Equipment Stores</div>
+                <div class="menu-item">Travel Agencies</div>
+                <div class="menu-item">Magazines & Newspapers</div>
+              </div>
+            </a>
+            <a class="small desktop" href="#how-it-works">How it Works</a>
+            <a class="small desktop" href="#contact-us">Contact Us</a>
+          </nav>
+          <form class="desktop" id="search-form">
+            <img
+              id="search-icon"
+              src="images/search-icon.png"
+              alt="search icon"
+            />
+            <input
+              class="light"
+              type="text"
+              id="search-input"
+              name="search"
+              placeholder="Search ..."
+            />
+          </form>
+          <button class="desktop signup-btn">Sign Up</button>
+        </div>
+      </header>
+
+      <button class="mobile mobile-header-button mobile-search">
+        <img src="images/mobile-search-icon.svg" alt="search icon" />
+      </button>
+
+      <button class="mobile mobile-header-button menu menu-button">
+        <img src="images/mobile-menu-icon.svg" alt="search icon" />
+      </button>
+    </div>
+
+    <div class="sidebar mobile">
+      <div class="sidebar-container">
+        <div class="back-button">
+          <div class="back-icon"><img src="images/back-icon.svg" alt="" /></div>
+          <p>Back</p>
+        </div>
+        <div class="sidebar-nav">
+          <p class="sidebar-nav-item"><a href="#other-users">Other Users</a></p>
+          <p class="sidebar-nav-item"><a href="#about-us">About Us</a></p>
+          <p class="sidebar-nav-item">
+            <a href="#how-it-works">How It Works</a>
+          </p>
+          <p class="sidebar-nav-item"><a href="#contact-us">Contact Us</a></p>
+        </div>
+        <button class="signup-btn mobile">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h3>Welcome to Intrafut</h3>
+          <h2 class="light">Shorten Your</h2>
+          <h1>Path To Success</h1>
+          <h1>With AI</h1>
+          <h4 class="light">Coming Soon ...</h4>
+          <form id="emailForm">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email And Join Waitlist"
+              required
+            />
+            <button type="submit" id="submit-button">Join Now</button>
+            <p class="small" id="submit-message" style="display: none"></p>
+          </form>
+        </div>
+        <div class="hero-message">
+          <p class="light">
+            Placing athletes in optimal environments with precise analysis,
+          </p>
+          <p class="light">
+            expert training, and tailored opportunities for success.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="in-colorful-bg">
+      <section class="brands">
+        <h2 class="light scrolling-text">
+          Unlock Potential, Connect Dreams, The Future of Football Awaits.
+        </h2>
+      </section>
+
+      <!-- About Us Section -->
+      <section class="about-us" id="about-us">
+        <div class="container">
+          <div class="image desktop">
+            <img src="images/about-us.png" alt="about-us" />
+          </div>
+          <div class="image mobile">
+            <img src="images/about-us-mobile.png" alt="about-us" />
+          </div>
+          <div class="content">
+            <h2 class="bold">About Us</h2>
+            <p>
+              At intrafut, we are revolutionizing football with AI-driven
+              innovation. Our platform is designed to transform talent
+              discovery, provide personalized training, and facilitate global
+              networking, bridging the gap between athletes, coaches, and
+              scouts.
+            </p>
+            <p>
+              Our mission is to unlock the full potential of every athlete
+              through real-time performance insights and customized development
+              plans. Whether you're a player looking to grow, or a club
+              searching for the next football star, Intrafut is your gateway to
+              the future of football.
+            </p>
+            <p>
+              We are not only shaping careers but also pushing the boundaries of
+              sports technology and sports tourism. By embracing AI-driven
+              analytics, we are paving the way for a more connected and
+              innovative football industry. Join us as we elevate the game and
+              create opportunities that transcend borders.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Users Section -->
+      <section class="our-users">
+        <div class="container">
+          <div class="section-heading">
+            <div class="line">
+              <img src="images/fading-line-left.png" alt="" />
+            </div>
+            <h2>OUR USERS</h2>
+            <div class="line">
+              <img src="images/fading-line-right.png" alt="" />
+            </div>
+          </div>
+          <div class="user-item reverse" id="players">
+            <div class="section-text margin-right">
+              <h3 class="bold">Players</h3>
+              <p>
+                Unlock your potential with AI-driven insights designed to match
+                you with the right opportunities. Intrafut analyzes your
+                capabilities and offers tailored training and feedback to help
+                you grow. Whether you’re looking to improve or connect with
+                clubs and scouts, our platform helps you showcase your talent
+                and find your perfect role.
+              </p>
+              <div class="section-list">
+                <p class="medium section-list-title">How it works</p>
+                <ul>
+                  <li class="light">
+                    <b class="bold">Sign Up: </b> Quickly create your profile
+                    tailored to your position or role.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Skill Matching: </b> Record your specialized
+                    skills, use advanced AI filters to find the right
+                    connections, and get discovered by others.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Track Progress: </b> Leverage AI-driven
+                    analytics to monitor your growth and receive continuous
+                    feedback.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section-image">
+              <img src="images/players.png" alt="Players" />
+            </div>
+          </div>
+          <div class="user-item" id="coaches">
+            <div class="section-image">
+              <img src="images/coaches.png" alt="Coaches" />
+            </div>
+            <div class="section-text margin-left">
+              <h3 class="bold">Coaches</h3>
+              <p>
+                Empower your coaching strategies with Intrafut's AI-powered
+                tools. Analyze player performance in real-time, personalized
+                training plans, and connect with top talent to strengthen your
+                team. Stay ahead with data-backed insights and collaboration
+                tools designed to foster player growth.
+              </p>
+              <div class="section-list">
+                <p class="medium section-list-title">How it works</p>
+                <ul>
+                  <li class="light">
+                    <b class="bold">Sign Up: </b> Quickly create your profile
+                    tailored to your position or role.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Discover Talent: </b> Easily find and
+                    connect with the right athletes to enhance your team.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Personalized Training: </b> Tailor your
+                    coaching plans based on real-time player insights.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="user-item reverse" id="fans">
+            <div class="section-text margin-right">
+              <h3 class="bold">Fans</h3>
+              <p>
+                Join a global community of football enthusiasts. Intrafut allows
+                you to engage with players, coaches, and clubs, offering
+                immersive experiences through personalized content and event
+                updates. Stay connected and celebrate football with fans
+                worldwide.
+              </p>
+              <div class="section-list">
+                <p class="medium section-list-title">How it works</p>
+                <ul>
+                  <li class="light">
+                    <b class="bold">Sign Up:</b> Join the platform to connect
+                    with players, teams, and events.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Engage with Events:</b> Participate in
+                    events, lotteries, and bets, enjoy the rewards, travel, and
+                    watch the matches.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Personal Development & Interactions:</b>
+                    Introduce or promote your business, and unlock new
+                    opportunities through dynamic, interactive content.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section-image">
+              <img src="images/fans.png" alt="Fans" />
+            </div>
+          </div>
+          <div class="user-item" id="other-users">
+            <div class="section-image">
+              <img src="/images/other-users.png" alt="Other Users" />
+            </div>
+            <div class="section-text margin-left">
+              <h3 class="bold">Other Users</h3>
+              <p>
+                Enhance and promote your career with Intrafut's AI tools.
+                Connect with employers, clients, and key individuals through
+                data-driven insights and collaboration tools
+              </p>
+              <div class="section-list">
+                <p class="medium section-list-title">How it works</p>
+                <ul>
+                  <li class="light">
+                    <b class="bold">Sign Up:</b> Quickly create your profile
+                    tailored to your expertise
+                  </li>
+                  <li class="light">
+                    <b class="bold">Showcase Your Skills:</b> Highlight your
+                    expertise, services, or products to a relevant audience.
+                  </li>
+                  <li class="light">
+                    <b class="bold">Connect & Grow:</b> Use AI tools to connect
+                    with the right individuals and opportunities, and expand
+                    your professional network
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits Section -->
+      <section class="benefits desktop">
+        <div class="section-heading">
+          <div class="line">
+            <img src="images/fading-line-left.png" alt="" />
+          </div>
+          <h2>Benefits</h2>
+          <div class="line">
+            <img src="images/fading-line-right.png" alt="" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="benefits-list">
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/marketing-strategy.png"
+                  alt=""
+                />
+                <p class="medium benefit-title">
+                  1. Unlock Global Opportunities
+                </p>
+                <p class="light benefit-text">
+                  Bridge the gap between athletes and sports organizations with
+                  cutting-edge AI tools for skill matching and performance
+                  tracking.
+                </p>
+              </div>
+            </div>
+            <div class="benefit-cart double-benefit">
+              <div class="benefit-item">
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/business.png"
+                  alt=""
+                />
+                <p class="medium benefit-title">2. Tailored Growth Path</p>
+                <p class="light benefit-text">
+                  Personalized development plans, maximizing potential through
+                  real-time data and AI-driven feedback.
+                </p>
+              </div>
+              <div class="benefit-item">
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/negotiation.png"
+                  alt=""
+                />
+                <p class="medium benefit-title">
+                  3. Seamless Global Connectivity
+                </p>
+                <p class="light benefit-text">
+                  Facilitate cultural and linguistic adaptation for effective
+                  communication and opportunities across borders.
+                </p>
+              </div>
+            </div>
+            <div class="benefit-cart double-benefit">
+              <div class="benefit-item">
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/leadership.png"
+                  alt=""
+                />
+                <p class="medium benefit-title">4. Enhanced Decision-Making</p>
+                <p class="light benefit-text">
+                  AI-driven insights and analytics help sports organizations
+                  make informed talent acquisition decisions.
+                </p>
+              </div>
+              <div class="benefit-item">
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/efficacy.png"
+                  alt=""
+                />
+                <p class="medium benefit-title">5. Continuous Improvement</p>
+                <p class="light benefit-text">
+                  Ongoing feedback and learning tools ensure athletes adapt and
+                  grow with evolving skill sets.
+                </p>
+              </div>
+            </div>
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/community.png"
+                  alt=""
+                />
+                <p class="medium benefit-title">6. Engaged Fan Community</p>
+                <p class="light benefit-text">
+                  Connect fans with athletes and clubs through exclusive
+                  content, personalized experiences, and real-time event
+                  updates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits Section -->
+      <section class="benefits mobile">
+        <div class="section-heading">
+          <div class="line">
+            <img src="images/fading-line-left.png" alt="" />
+          </div>
+          <h2>Benefits</h2>
+          <div class="line">
+            <img src="images/fading-line-right.png" alt="" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="benefits-list">
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-bg"
+                  src="images/benefit--bg-mobile.png"
+                  alt=""
+                />
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/marketing-strategy.png"
+                  alt=""
+                />
+                <div class="benefit-item-content">
+                  <p class="medium benefit-title">
+                    1. Unlock Global Opportunities
+                  </p>
+                  <p class="light benefit-text">
+                    Bridge the gap between athletes and sports organizations
+                    with cutting-edge AI tools for skill matching and
+                    performance tracking.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-bg"
+                  src="images/benefit--bg-mobile.png"
+                  alt=""
+                />
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/business.png"
+                  alt=""
+                />
+                <div class="benefit-item-content">
+                  <p class="medium benefit-title">2. Tailored Growth Path</p>
+                  <p class="light benefit-text">
+                    Personalized development plans, maximizing potential through
+                    real-time data and AI-driven feedback.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-bg"
+                  src="images/benefit--bg-mobile.png"
+                  alt=""
+                />
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/negotiation.png"
+                  alt=""
+                />
+                <div class="benefit-item-content">
+                  <p class="medium benefit-title">
+                    3. Seamless Global Connectivity
+                  </p>
+                  <p class="light benefit-text">
+                    Facilitate cultural and linguistic adaptation for effective
+                    communication and opportunities across borders.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-bg"
+                  src="images/benefit--bg-mobile.png"
+                  alt=""
+                />
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/leadership.png"
+                  alt=""
+                />
+                <div class="benefit-item-content">
+                  <p class="medium benefit-title">
+                    4. Enhanced Decision-Making
+                  </p>
+                  <p class="light benefit-text">
+                    AI-driven insights and analytics help sports organizations
+                    make informed talent acquisition decisions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-bg"
+                  src="images/benefit--bg-mobile.png"
+                  alt=""
+                />
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/efficacy.png"
+                  alt=""
+                />
+                <div class="benefit-item-content">
+                  <p class="medium benefit-title">5. Continuous Improvement</p>
+                  <p class="light benefit-text">
+                    Ongoing feedback and learning tools ensure athletes adapt
+                    and grow with evolving skill sets.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="benefit-cart">
+              <div class="benefit-item">
+                <img
+                  class="benefit-bg"
+                  src="images/benefit--bg-mobile.png"
+                  alt=""
+                />
+                <img
+                  class="benefit-icon"
+                  src="images/benefits/community.png"
+                  alt=""
+                />
+                <div class="benefit-item-content">
+                  <p class="medium benefit-title">6. Engaged Fan Community</p>
+                  <p class="light benefit-text">
+                    Connect fans with athletes and clubs through exclusive
+                    content, personalized experiences, and real-time event
+                    updates.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works" id="how-it-works">
+        <div class="container">
+          <div class="section-text">
+            <h2 class="bold">How It Works</h2>
+            <ul>
+              <li>
+                <p class="medium step-title">1. Sign Up</p>
+                <p class="light step-text">
+                  Create your profile in minutes and share your skills, goals,
+                  and preferences
+                </p>
+              </li>
+              <li>
+                <p class="medium step-title">2. AI-Powered Skill Matching</p>
+                <p class="light step-text">
+                  Our advanced AI analyzes your data, identifying the best
+                  opportunities based on your unique abilities and potential
+                </p>
+              </li>
+              <li>
+                <p class="medium step-title">
+                  3. Personalized Training & Feedback
+                </p>
+                <p class="light step-text">
+                  Receive tailored training plans and real-time feedback
+                  designed to accelerate your development, driven by performance
+                  analytics.
+                </p>
+              </li>
+              <li>
+                <p class="medium step-title">4. Global Networking</p>
+                <p class="light step-text">
+                  Connect with coaches, scouts, and clubs worldwide, with
+                  built-in language and cultural adaptation tools for seamless
+                  communication.
+                </p>
+              </li>
+              <li>
+                <p class="medium step-title">5. Track & Improve</p>
+                <p class="light step-text">
+                  Monitor your progress with continuous AI-driven insights, and
+                  adjust your training to stay ahead of the game.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="section-image">
+            <img src="images/how-it-works.png" alt="how it works" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Key Features Section -->
+    <section class="key-features">
+      <div class="section-heading">
+        <div class="line">
+          <img src="images/fading-line-left.png" alt="" />
+        </div>
+        <h2>Key Features</h2>
+        <div class="line">
+          <img src="images/fading-line-right.png" alt="" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="feature-cards">
+          <div class="feature-card">
+            <img src="images/feature-01.png" alt="Feature 1" />
+            <p class="medium feature-card-title">AI-Driven Talent Discovery</p>
+            <p class="small">
+              Leverage AI tools to identify football talent and connect athletes
+              with clubs, academies, and coaches globally—giving visibility to
+              athletes from underserved regions.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/feature-02.png" alt="Feature 1" />
+            <p class="medium feature-card-title">
+              Personalized Training & Development
+            </p>
+            <p class="small">
+              Provide customized, AI-guided training plans tailored to improve
+              player performance and support growth with unique, individualized
+              solutions.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/feature-03.png" alt="Feature 1" />
+            <p class="medium feature-card-title">
+              Seamless Athlete-Coach Connectivity
+            </p>
+            <p class="small">
+              Streamline communication between players, coaches, and scouts,
+              simplifying recruitment and talent management through direct
+              connections.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/feature-04.png" alt="Feature 1" />
+            <p class="medium feature-card-title">Smart Data-Driven Insights</p>
+            <p class="small">
+              Deliver actionable insights using advanced analytics for precise
+              performance tracking, enabling informed decisions and skill
+              enhancement.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/feature-05.png" alt="Feature 1" />
+            <p class="medium feature-card-title">
+              Global Networking Opportunities
+            </p>
+            <p class="small">
+              Bridge geographical barriers by connecting football enthusiasts,
+              professionals, and fans worldwide, fostering collaboration across
+              the football community.
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="images/feature-06.png" alt="Feature 1" />
+            <p class="medium feature-card-title">Scalable Global Reach</p>
+            <p class="small">
+              Designed for adaptability and scalability across regions and
+              languages, making it a global solution for talent development and
+              engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text" id="contact-us">
+            <h3>Contact Us</h3>
+            <p>
+              Got questions. We’re here to help. Reach out to our team and learn
+              how Intrafut can help you grow.
+            </p>
+            <div class="socials">
+              <div class="social-item">
+                <div class="social-icons">
+                  <img class="whatsapp" src="images/whatsapp.svg" alt="" />
+                  <img src="images/call.svg" alt="" />
+                </div>
+                <p class="social-text small">+310626865542</p>
+              </div>
+              <div class="social-item">
+                <div class="social-icons">
+                  <img src="images/mail.svg" alt="" />
+                </div>
+                <p class="social-text small email">sporttech@intrafut.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-navigation desktop">
+          <header class="navbar in-footer">
+            <div class="container">
+              <p class="small copy">Copyright Satyam Studio</p>
+              <a href="#" class="logo"
+                ><img src="images/header-logo.png" alt=""
+              /></a>
+              <nav class="nav">
+                <a class="small" href="#hero">Home</a>
+                <a class="small" href="#about-us">About Us</a>
+                <a class="small" href="#players">Players</a>
+                <a class="small" href="#coaches">Coaches</a>
+                <a class="small" href="#fans">Fans</a>
+                <a class="small" href="#other-users">Other Users</a>
+                <a class="small" href="#how-it-works">How it Works</a>
+                <a class="small" href="#contact-us">Contact Us</a>
+              </nav>
+            </div>
+          </header>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>

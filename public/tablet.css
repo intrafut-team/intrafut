@@ -1,0 +1,54 @@
+@import "style.css";
+
+@media screen and (max-width: 1440px) {
+  .section-heading .line {
+    width: 320px;
+  }
+
+  .section-heading .line img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  header form.desktop {
+    display: none;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .about-us .image.desktop {
+    width: 480px;
+  }
+
+  .about-us .image.desktop img {
+    width: 480px;
+  }
+
+  .footer .copy {
+    display: none;
+  }
+
+  .key-features .feature-cards .feature-card {
+    width: 360px;
+    margin-bottom: 40px;
+  }
+
+  .benefits .benefits-list .benefit-cart {
+    width: 360px;
+    height: 255px;
+    padding: 10px 20px 20px 20px;
+  }
+
+  .benefits .benefits-list .benefit-cart.double-benefit {
+    width: 780px;
+  }
+
+  .key-features .feature-cards .feature-card img {
+    width: 360px;
+  }
+}

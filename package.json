@@ -1,0 +1,19 @@
+{
+  "name": "sport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "build": "echo 'No build step required for Vercel'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "sqlite3": "^5.1.7"
+  }
+}
