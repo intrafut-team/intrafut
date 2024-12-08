@@ -318,7 +318,24 @@ img#search-icon {
   background-color: rgba(49,49,49);
   color: white;
   border-radius: 23px;
-  padding: 0 20px
+  padding: 0 20px;
+  outline: none;
+}
+
+.hero #email:active, .hero #email:focus-visible {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  outline: none;
+}
+
+.hero #email:-webkit-autofill,
+.hero #email:-webkit-autofill:hover,
+.hero #email:-webkit-autofill:focus,
+.hero #email:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgba(49, 49, 49) inset !important;
+}
+
+.hero #email:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
 }
 
 #submit-message {
@@ -333,7 +350,8 @@ img#search-icon {
   border-radius: 23px;
   margin-left: 10px;
   border: none;
-  transition: background-color 0.3s ease;
+  transition: background-color, box-shadow, transform 0.1s ease-out;
+  box-shadow: 0px 3px 0px #888888;
 }
 
 .hero form button:hover {
@@ -341,7 +359,8 @@ img#search-icon {
 }
 
 .hero form button:active {
-  transform: scale(0.95);
+  transform: scale(0.9);
+  box-shadow: 0px 1px 0px #888888;
 }
 
 .hero .hero-message {

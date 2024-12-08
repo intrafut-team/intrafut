@@ -21,14 +21,6 @@
     font-size: 18px;
   }
 
-  .about-us .image.desktop {
-    width: 480px;
-  }
-
-  .about-us .image.desktop img {
-    width: 480px;
-  }
-
   .footer .copy {
     display: none;
   }
