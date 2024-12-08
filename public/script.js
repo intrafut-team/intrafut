@@ -1,7 +1,6 @@
 document
   .getElementById("emailForm")
   .addEventListener("submit", async (event) => {
-    console.log("sdfsdfds");
     event.preventDefault();
 
     const emailInput = document.getElementById("email");

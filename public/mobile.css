@@ -192,7 +192,7 @@
 
   .hero form {
     margin: 8px 0;
-  }
+  }  
 
   .hero #email {
     font-family: 'tommy-regular', sans-serif;
@@ -218,6 +218,7 @@
     font-size: 7px;
     border: none;
     transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 0px #888888;
   }
 
   .hero .hero-message {
