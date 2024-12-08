@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const pool = new Pool({
   connectionString:
-    "postgresql://neondb_owner:xPguFQUopa17@ep-jolly-mud-a465h29g.us-east-1.aws.neon.tech/sport?sslmode=require",
+    "postgres://neondb_owner:TG0uAS6egQsz@ep-floral-rain-a2iq8paf-pooler.eu-central-1.aws.neon.tech/sport?sslmode=require",
   ssl: {
     rejectUnauthorized: false,
   },
